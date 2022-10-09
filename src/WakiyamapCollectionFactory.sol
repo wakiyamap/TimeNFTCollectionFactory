@@ -68,13 +68,13 @@ import "openzeppelin-contracts/contracts/utils/Strings.sol";
 import "openzeppelin-contracts/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "openzeppelin-contracts/contracts-upgradeable/utils/AddressUpgradeable.sol";
 
-import "./interfaces/internal/INFTDropCollectionInitializer.sol";
-import "./interfaces/internal/INFTCollectionInitializer.sol";
-import "./interfaces/internal/roles/IHasRolesContract.sol";
-import "./interfaces/internal/roles/IRoles.sol";
+import "fnd-protocol/interfaces/internal/INFTDropCollectionInitializer.sol";
+import "fnd-protocol/interfaces/internal/INFTCollectionInitializer.sol";
+import "fnd-protocol/interfaces/internal/roles/IHasRolesContract.sol";
+import "fnd-protocol/interfaces/internal/roles/IRoles.sol";
 
-import "./libraries/AddressLibrary.sol";
-import "./mixins/shared/Gap10000.sol";
+import "fnd-protocol/libraries/AddressLibrary.sol";
+import "fnd-protocol/mixins/shared/Gap10000.sol";
 
 /**
  * @title A factory to create NFT collections.
