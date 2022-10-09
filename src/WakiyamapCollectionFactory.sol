@@ -59,14 +59,12 @@
 // From FNDCollectionFactory. Thanks FND!
 // https://github.com/f8n/fnd-protocol/tree/v2.3.0
 
-// SPDX-License-Identifier: MIT OR Apache-2.0
-
 pragma solidity ^0.8.12;
 
 import "openzeppelin-contracts/contracts/proxy/Clones.sol";
 import "openzeppelin-contracts/contracts/utils/Strings.sol";
-import "openzeppelin-contracts/contracts-upgradeable/proxy/utils/Initializable.sol";
-import "openzeppelin-contracts/contracts-upgradeable/utils/AddressUpgradeable.sol";
+import "openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol";
+import "openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol";
 
 import "fnd-protocol/interfaces/internal/INFTDropCollectionInitializer.sol";
 import "fnd-protocol/interfaces/internal/INFTCollectionInitializer.sol";
