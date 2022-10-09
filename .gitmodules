@@ -4,3 +4,6 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "lib/fnd-protocol"]
+	path = lib/fnd-protocol
+	url = https://github.com/f8n/fnd-protocol
